@@ -176,8 +176,8 @@ class GittwoSpider(scrapy.Spider):
         post_data = {
             'commit': 'Sign in',
             'authenticity_token': token,
-            'login': 'HighGrooce',
-            'password': 'wjy864755286',
+            'login': 'username',
+            'password': 'password',
             'trusted_device': '',
             'webauthn-support': 'supported',
             'webauthn-iuvpaa-support': 'unsupported',
